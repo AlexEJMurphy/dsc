@@ -12,7 +12,7 @@ public class Event {
         this.unweightedValue = unweightedValue;
     }
 
-    UnweightedValue unweightedValue = new UnweightedValue(10);
-    Duration durationOfEvent = Duration.ofHours(2);
+    UnweightedValue unweightedValue;
+    Duration durationOfEvent;
 
 }
